@@ -7,6 +7,40 @@ Python • Kubernetes • Proxmox VE • Linux
 - I enjoy building open-source software that simplifies homelab management or some process at my work.
 
 ## Infrastructure
+```text
+                        Internet
+                            │
+                    Cloudflare Tunnel
+                            │
+                    ┌───────────────┐
+                    │   Proxmox VE  │
+                    └───────┬───────┘
+                            │
+      ┌─────────────────────┼─────────────────────┐
+      │                     │                     │
+┌──────────────────────┐ ┌──────────────────────┐ ┌──────────────────────┐
+│ Dell PowerEdge R620  │ │ Dell PowerEdge R410  │ │ Dell PowerEdge R210II│
+├──────────────────────┤ ├──────────────────────┤ ├──────────────────────┤
+│ CPU                  │ │ CPU                  │ │ CPU                  │
+│ 2× Xeon E5-2660      │ │ 2× Xeon X5670        │ │ Xeon E3-1220 v2      │
+│                      │ │                      │ │                      │
+│ RAM                  │ │ RAM                  │ │ RAM                  │
+│ 128 GB DDR3 ECC      │ │ 64 GB DDR3 ECC       │ │ 10 GB DDR3 ECC       │
+│                      │ │                      │ │                      │
+│ Storage              │ │ Storage              │ │ Storage              │
+│ 2×1.8TB SAS          │ │ 4×3TB HDD            │ │ 2×2TB HDD            │
+│ 1TB SATA SSD         │ │ 256GB SATA SSD       │ │ 256GB SATA SSD       │
+│                      │ │                      │ │                      │
+│ GPU                  │ │ GPU                  │ │ GPU                  │
+│ NVIDIA T1000 8GB     │ │ Matrox G200eW        │ │ NVIDIA P1000 4GB     │
+└──────────────────────┘ └──────────────────────┘ └──────────────────────┘
+      │                             │                               │
+      └────────────┬────────────────┴──────────────┬────────────────┘
+                   │                               │
+             ┌────────────┐                  ┌────────────┐
+             │ Kubernetes │                  │ Docker     │
+             └────────────┘                  └────────────┘
+```
 
 - ☸️ Kubernetes (k3s)
 - 🖥️ Proxmox VE
