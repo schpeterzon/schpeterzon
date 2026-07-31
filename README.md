@@ -8,10 +8,6 @@ Python • Kubernetes • Proxmox VE • Linux
 
 ## Infrastructure
 ```text
-                        Internet
-                            │
-                    Cloudflare Tunnel
-                            │
                     ┌───────────────┐
                     │   Proxmox VE  │
                     └───────┬───────┘
