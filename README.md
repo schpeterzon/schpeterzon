@@ -1,15 +1,11 @@
-╭──────────────────────────────────────────────╮
-│ SATYI HOMELAB                                │
-│                                              │
-│ Python • Kubernetes • Proxmox VE • Linux     │
-│                                              │
-│ Building production-grade infrastructure at  │
-│ home.                                        │
-╰──────────────────────────────────────────────╯
+# SATYI HOMELAB
+Python • Kubernetes • Proxmox VE • Linux
 
-My homelab is where I design, deploy, and test production-inspired systems using Kubernetes, Proxmox, Linux, and Python.
+- Building production-grade infrastructure at home.
 
-Outside of infrastructure, I enjoy building open-source software that simplifies homelab management or some process at my work.
+- My homelab is where I design, deploy, and test production-inspired systems using Kubernetes, Proxmox, Linux, and Python.
+
+- I enjoy building open-source software that simplifies homelab management or some process at my work.
 
 
 ## Infrastructure
