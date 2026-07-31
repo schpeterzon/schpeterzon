@@ -31,8 +31,8 @@ Python • Kubernetes • Proxmox VE • Linux
 │ 2×1.8TB SAS          │ │ 4×3TB HDD            │ │ 2×2TB HDD            │
 │ 1TB SATA SSD         │ │ 256GB SATA SSD       │ │ 256GB SATA SSD       │
 │                      │ │                      │ │                      │
-│ GPU                  │ │ GPU                  │ │ GPU                  │
-│ NVIDIA T1000 8GB     │ │ Matrox G200eW        │ │ NVIDIA P1000 4GB     │
+│ GPU                  │ │                      │ │ GPU                  │
+│ NVIDIA T1000 8GB     │ │                      │ │ NVIDIA P1000 4GB     │
 └──────────────────────┘ └──────────────────────┘ └──────────────────────┘
       │                             │                               │
       └────────────┬────────────────┴──────────────┬────────────────┘
