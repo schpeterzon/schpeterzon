@@ -44,3 +44,5 @@ Python • Kubernetes • Proxmox VE • Linux
 > Collector notices: `kubernetes: kubectl unavailable or query failed: exec: "kubectl": executable file not found in $PATH` 
 
 _Generated every four hours by [homelab-stat-for-bio](https://github.com/schpeterzon/homelab-stat-for-bio)._
+
+(I run kubernetes in a different VM than docker. Soon it will be able to show every machine's stats and VM summary)
