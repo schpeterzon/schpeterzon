@@ -23,7 +23,7 @@ Python • Kubernetes • Proxmox VE • Linux
 - Self-hosted monitoring platform
 - Learning Nix ecosystem
 
-## Live homelab status
+## Live homelab status of R620 Docker VM
 
 🟢 **Healthy** · refreshed 01 Aug 2026 12:22 UTC
 
