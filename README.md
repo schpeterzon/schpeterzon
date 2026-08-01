@@ -23,13 +23,13 @@ Python • Kubernetes • Proxmox VE • Linux
 - Self-hosted monitoring platform
 - Learning Nix ecosystem
 
-## Live homelab status of R620 Docker VM
+## Live homelab status
 
-🟢 **Healthy** · refreshed 01 Aug 2026 12:22 UTC
+🟢 **Healthy** · refreshed 01 Aug 2026 14:01 UTC
 
 | Host | Kernel | Uptime |
 |---|---|---:|
-| docker | 6.12.74+deb13+1-amd64 | 2612583 seconds |
+| docker | 6.12.74+deb13+1-amd64 | 2618480 seconds |
 
 | Kubernetes nodes | Pods | Docker containers |
 |:--:|:--:|:--:|
@@ -39,10 +39,8 @@ Python • Kubernetes • Proxmox VE • Linux
 
 | CPU | Memory | Storage |
 |---:|---:|---:|
-| 44.9% | 25.8% | 1.7 / 2.8 TB |
+| 33.5% | 27.3% | 1.7 / 2.8 TB |
 
 > Collector notices: `kubernetes: kubectl unavailable or query failed: exec: "kubectl": executable file not found in $PATH` 
 
 _Generated every four hours by [homelab-stat-for-bio](https://github.com/schpeterzon/homelab-stat-for-bio)._
-
-(I run kubernetes in a different VM than docker. Soon it will be able to show every machine's stats and VM summary)
