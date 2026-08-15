@@ -1,15 +1,15 @@
 {
   "health": "Healthy",
   "system": {
-    "cpu": 44.4,
-    "memory": 28.8,
+    "cpu": 42.2,
+    "memory": 29.4,
     "storage": {
       "used_tb": 1.68,
       "total_tb": 2.8,
       "mountpoint": "configured"
     },
     "hostname": "docker",
-    "uptime_seconds": 3842440,
+    "uptime_seconds": 3857166,
     "kernel": "6.12.74+deb13+1-amd64"
   },
   "kubernetes": {
@@ -27,14 +27,13 @@
       "total_tb": 0
     }
   },
-  "updated": "2026-08-15T18:00:31.007402692Z",
-  "asset_version": "1786816831",
+  "updated": "2026-08-15T22:05:57.007326525Z",
+  "asset_version": "1786831557",
   "errors": [
     "kubernetes: kubectl unavailable or query failed: exec: \"kubectl\": executable file not found in $PATH"
   ],
   "history": {
     "cpu": [
-      35.3,
       35.1,
       70.7,
       48,
@@ -63,10 +62,10 @@
       51.9,
       47.9,
       37.9,
-      44.4
+      44.4,
+      42.2
     ],
     "memory": [
-      29.1,
       28.7,
       28.6,
       28.5,
@@ -95,7 +94,8 @@
       28.7,
       29.2,
       29.3,
-      28.8
+      28.8,
+      29.4
     ],
     "storage": [
       60,
