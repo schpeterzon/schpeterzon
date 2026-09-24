@@ -11,25 +11,26 @@ Python • Kubernetes • Proxmox VE • Linux
 - ☸️ Kubernetes (k3s)
 - 🖥️ Proxmox VE
 - 🐳 Docker
-- 🐧 Linux
-- ☁️ Cloudflare
-- 🔒 WireGuard
-- 💾 Storage & NAS
+- 🐧 Linux (Bazzite / Debian)
+- ☁️ Cloudflare Tunnels
+- 🔒 WireGuard VPN
+- 📦 Nextcloud
+- 🔐 Vaultwarden
+- 💾 Storage & NAS (Jellyfin)
 
 ## Currently Working On
 
-- Standalone Homelab Dashboard
-- Kubernetes migration
+- [Warframe Farming Companion](https://github.com/schpeterzon/warframe-farming-companion) — Go backend + React frontend + Linux Python agent with EE.log monitoring, OCR reward detection, K3s deployment
+- Kubernetes migration of remaining Docker services
 - Self-hosted monitoring platform
-- Learning Nix ecosystem
 
 ## Live homelab status
 
-🟢 **Healthy** · refreshed 23 Sep 2026 22:05 UTC
+🟢 **Healthy** · refreshed 24 Sep 2026 01:16 UTC
 
 | Host | Kernel | Uptime |
 |---|---|---:|
-| docker | 6.12.74+deb13+1-amd64 | 1760240 seconds |
+| docker | 6.12.74+deb13+1-amd64 | 1771709 seconds |
 
 | Kubernetes nodes | Pods | Docker containers |
 |:--:|:--:|:--:|
@@ -39,7 +40,7 @@ Python • Kubernetes • Proxmox VE • Linux
 
 | CPU | Memory | Storage |
 |---:|---:|---:|
-| 76.2% | 14.9% | 1.7 / 2.8 TB |
+| 71.9% | 15.6% | 1.7 / 2.8 TB |
 
 > Collector notices: `kubernetes: kubectl unavailable or query failed: exec: "kubectl": executable file not found in $PATH` 
 
