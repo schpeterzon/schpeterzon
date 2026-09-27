@@ -26,11 +26,11 @@ Python • Kubernetes • Proxmox VE • Linux
 
 ## Live homelab status
 
-🟢 **Healthy** · refreshed 27 Sep 2026 06:10 UTC
+🟢 **Healthy** · refreshed 27 Sep 2026 10:01 UTC
 
 | Host | Kernel | Uptime |
 |---|---|---:|
-| docker | 6.12.74+deb13+1-amd64 | 2048512 seconds |
+| docker | 6.12.74+deb13+1-amd64 | 2062400 seconds |
 
 | Kubernetes nodes | Pods | Docker containers |
 |:--:|:--:|:--:|
@@ -40,7 +40,7 @@ Python • Kubernetes • Proxmox VE • Linux
 
 | CPU | Memory | Storage |
 |---:|---:|---:|
-| 72.4% | 16.4% | 1.7 / 2.8 TB |
+| 72.1% | 16.4% | 1.7 / 2.8 TB |
 
 > Collector notices: `kubernetes: kubectl unavailable or query failed: exec: "kubectl": executable file not found in $PATH` 
 
