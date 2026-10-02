@@ -1,47 +1,45 @@
-# SATYI HOMELAB
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
+  <img alt="SATYI homelab" src="assets/header-dark.svg" width="100%">
+</picture>
 
-Python • Kubernetes • Proxmox VE • Linux
+I design, deploy, and operate production-style infrastructure at home: a three-node Proxmox VE cluster running a K3s Kubernetes cluster alongside Docker hosts, exposed through Cloudflare Tunnels. The homelab is where I test ideas before they reach work, and where I build open-source tooling that makes running it simpler.
 
-- Building production-grade infrastructure at home.
-- My homelab is where I design, deploy, and test production-inspired systems using Kubernetes, Proxmox, Linux, and Python.
-- I enjoy building open-source software that simplifies homelab management or some process at my work.
+## Live status
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/metrics-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/metrics-light.svg">
+  <img alt="Live CPU, memory, and storage usage" src="assets/metrics-dark.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/loadmap-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/loadmap-light.svg">
+  <img alt="Seven-day CPU and memory heatmap" src="assets/loadmap-dark.svg" width="100%">
+</picture>
 
 ## Infrastructure
 
-- ☸️ Kubernetes (k3s)
-- 🖥️ Proxmox VE
-- 🐳 Docker
-- 🐧 Linux (Bazzite / Debian)
-- ☁️ Cloudflare Tunnels
-- 🔒 WireGuard VPN
-- 📦 Nextcloud
-- 🔐 Vaultwarden
-- 💾 Storage & NAS (Jellyfin)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/topology-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/topology-light.svg">
+  <img alt="Infrastructure map from edge to workloads" src="assets/topology-dark.svg" width="100%">
+</picture>
 
-## Currently Working On
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/stack-light.svg">
+  <img alt="Technology stack" src="assets/stack-dark.svg" width="100%">
+</picture>
 
-- [Warframe Farming Companion](https://github.com/schpeterzon/warframe-farming-companion) — Go backend + React frontend + Linux Python agent with EE.log monitoring, OCR reward detection, K3s deployment
-- Kubernetes migration of remaining Docker services
-- Self-hosted monitoring platform
 
-## Live homelab status
+<details>
+<summary>Collector notices (1)</summary>
 
-🟢 **Healthy** · refreshed 02 Oct 2026 18:01 UTC
+- `kubernetes: kubectl unavailable or query failed: exec: "kubectl": executable file not found in $PATH`
 
-| Host | Kernel | Uptime |
-|---|---|---:|
-| docker | 6.12.74+deb13+1-amd64 | 2523200 seconds |
+</details>
 
-| Kubernetes nodes | Pods | Docker containers |
-|:--:|:--:|:--:|
-| 0 | 0 | 37 |
-
-<img src="cpu.svg" alt="CPU usage" /> <img src="ram.svg" alt="Memory usage" /> <img src="storage.svg" alt="Storage usage" />
-
-| CPU | Memory | Storage |
-|---:|---:|---:|
-| 82.4% | 16.7% | 1.7 / 2.8 TB |
-
-> Collector notices: `kubernetes: kubectl unavailable or query failed: exec: "kubectl": executable file not found in $PATH` 
-
-_Generated every four hours by [homelab-stat-for-bio](https://github.com/schpeterzon/homelab-stat-for-bio)._
+<sub>Snapshot 02 Oct 2026, 18:01 UTC. Rendered every four hours by <a href="https://github.com/schpeterzon/homelab-stat-for-bio">homelab-stat-for-bio</a>. Raw data: <a href="status.json">status.json</a>.</sub>
