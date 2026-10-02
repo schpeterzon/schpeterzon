@@ -35,11 +35,4 @@ I design, deploy, and operate production-style infrastructure at home: a three-n
 </picture>
 
 
-<details>
-<summary>Collector notices (1)</summary>
-
-- `kubernetes: kubectl unavailable or query failed: exec: "kubectl": executable file not found in $PATH`
-
-</details>
-
-<sub>Snapshot 02 Oct 2026, 18:01 UTC. Rendered every four hours by <a href="https://github.com/schpeterzon/homelab-stat-for-bio">homelab-stat-for-bio</a>. Raw data: <a href="status.json">status.json</a>.</sub>
+<sub>Snapshot 02 Oct 2026, 22:56 UTC. Rendered every four hours by <a href="https://github.com/schpeterzon/homelab-stat-for-bio">homelab-stat-for-bio</a>. Raw data: <a href="status.json">status.json</a>.</sub>
