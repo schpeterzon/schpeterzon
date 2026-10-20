@@ -35,4 +35,4 @@ I design, deploy, and operate production-style infrastructure at home: a three-n
 </picture>
 
 
-<sub>Snapshot 20 Oct 2026, 02:00 UTC. Rendered every four hours by <a href="https://github.com/schpeterzon/homelab-stat-for-bio">homelab-stat-for-bio</a>. Raw data: <a href="status.json">status.json</a>.</sub>
+<sub>Snapshot 20 Oct 2026, 06:03 UTC. Rendered every four hours by <a href="https://github.com/schpeterzon/homelab-stat-for-bio">homelab-stat-for-bio</a>. Raw data: <a href="status.json">status.json</a>.</sub>
