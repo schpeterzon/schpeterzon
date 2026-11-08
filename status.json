@@ -10,7 +10,7 @@
       "mountpoint": "configured"
     },
     "hostname": "docker",
-    "uptime_seconds": 2668089,
+    "uptime_seconds": 2682369,
     "kernel": "6.12.74+deb13+1-amd64"
   },
   "kubernetes": {
@@ -19,8 +19,8 @@
     "pods": 54,
     "running": 54,
     "deployments": 23,
-    "cpu": 6.7,
-    "memory": 23.3
+    "cpu": 7.7,
+    "memory": 23
   },
   "docker": {
     "containers": 53,
@@ -45,41 +45,40 @@
     "memory": 70.8,
     "memory_total_tb": 0.19373860582709312,
     "storage": {
-      "used_tb": 6.06,
-      "total_tb": 10.49
+      "used_tb": 7.12,
+      "total_tb": 12.03
     },
     "hosts": [
       {
         "name": "forest",
         "online": true,
-        "cpu": 8.9,
+        "cpu": 11.4,
         "memory": 56.1,
         "guests": 2,
-        "uptime_seconds": 5724444
+        "uptime_seconds": 5738724
       },
       {
         "name": "rackintosh",
         "online": true,
-        "cpu": 27.5,
-        "memory": 77.2,
+        "cpu": 25.6,
+        "memory": 77.3,
         "guests": 4,
-        "uptime_seconds": 5724226
+        "uptime_seconds": 5738506
       },
       {
         "name": "silicium",
         "online": true,
-        "cpu": 7.7,
-        "memory": 82.3,
+        "cpu": 8.2,
+        "memory": 82.4,
         "guests": 2,
-        "uptime_seconds": 5724453
+        "uptime_seconds": 5738732
       }
     ]
   },
-  "updated": "2026-11-08T19:11:18.253211463Z",
-  "asset_version": "1794165078",
+  "updated": "2026-11-08T23:09:18.14655237Z",
+  "asset_version": "1794179358",
   "history": {
     "time": [
-      "2026-11-01T19:08:18.588934761Z",
       "2026-11-01T23:09:18.228019151Z",
       "2026-11-02T03:12:18.154231721Z",
       "2026-11-02T07:13:18.143160282Z",
@@ -120,10 +119,10 @@
       "2026-11-08T07:01:26.745987375Z",
       "2026-11-08T11:02:25.717744213Z",
       "2026-11-08T15:06:18.128728439Z",
-      "2026-11-08T19:11:18.253211463Z"
+      "2026-11-08T19:11:18.253211463Z",
+      "2026-11-08T23:09:18.14655237Z"
     ],
     "cpu": [
-      16.5,
       19.8,
       16.5,
       20.4,
@@ -164,10 +163,10 @@
       14.1,
       12.2,
       17.7,
+      18.8,
       18.8
     ],
     "memory": [
-      75.5,
       74.9,
       75.7,
       75.9,
@@ -208,6 +207,7 @@
       69.6,
       70.2,
       70.7,
+      70.8,
       70.8
     ],
     "storage": [
