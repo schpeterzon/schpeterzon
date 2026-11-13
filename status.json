@@ -2,15 +2,15 @@
   "health": "Operational",
   "scope": "cluster",
   "system": {
-    "cpu": 12.9,
-    "memory": 72.7,
+    "cpu": 19,
+    "memory": 72.3,
     "storage": {
       "used_tb": 1.68,
       "total_tb": 2.8,
       "mountpoint": "configured"
     },
     "hostname": "docker",
-    "uptime_seconds": 3027908,
+    "uptime_seconds": 3042489,
     "kernel": "6.12.74+deb13+1-amd64"
   },
   "kubernetes": {
@@ -40,46 +40,45 @@
     "online": 3,
     "guests": 13,
     "running": 8,
-    "cpu": 12.9,
+    "cpu": 19,
     "cores": 60,
-    "memory": 72.7,
+    "memory": 72.3,
     "memory_total_tb": 0.19373860582709312,
     "storage": {
-      "used_tb": 6.06,
-      "total_tb": 10.49
+      "used_tb": 7.12,
+      "total_tb": 12.03
     },
     "hosts": [
       {
         "name": "forest",
         "online": true,
-        "cpu": 8.2,
+        "cpu": 9.8,
         "memory": 55.2,
         "guests": 2,
-        "uptime_seconds": 6084264
+        "uptime_seconds": 6098843
       },
       {
         "name": "rackintosh",
         "online": true,
-        "cpu": 16.9,
-        "memory": 80.4,
+        "cpu": 27.4,
+        "memory": 79.9,
         "guests": 4,
-        "uptime_seconds": 6084049
+        "uptime_seconds": 6098628
       },
       {
         "name": "silicium",
         "online": true,
-        "cpu": 8.6,
-        "memory": 85.4,
+        "cpu": 7.2,
+        "memory": 85.1,
         "guests": 2,
-        "uptime_seconds": 6084274
+        "uptime_seconds": 6098854
       }
     ]
   },
-  "updated": "2026-11-12T23:08:16.774691428Z",
-  "asset_version": "1794524896",
+  "updated": "2026-11-13T03:11:18.220816283Z",
+  "asset_version": "1794539478",
   "history": {
     "time": [
-      "2026-11-06T03:01:36.733271463Z",
       "2026-11-06T07:12:18.119918826Z",
       "2026-11-06T11:01:46.730885284Z",
       "2026-11-06T15:06:49.481583503Z",
@@ -120,10 +119,10 @@
       "2026-11-12T11:01:18.144913153Z",
       "2026-11-12T15:07:26.707234235Z",
       "2026-11-12T19:06:18.253351355Z",
-      "2026-11-12T23:08:16.774691428Z"
+      "2026-11-12T23:08:16.774691428Z",
+      "2026-11-13T03:11:18.220816283Z"
     ],
     "cpu": [
-      18.2,
       19.9,
       22.1,
       12.3,
@@ -164,10 +163,10 @@
       18.3,
       15.6,
       18.3,
-      12.9
+      12.9,
+      19
     ],
     "memory": [
-      75.7,
       75.3,
       75.1,
       75.4,
@@ -208,7 +207,8 @@
       72.3,
       73.2,
       72.9,
-      72.7
+      72.7,
+      72.3
     ],
     "storage": [
       60,
